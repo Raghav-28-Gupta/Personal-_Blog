@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Profile.jpg">
+</head>
+<body>
+     <div id="main">
+          <header id="header">
+               <nav class="nav-links">
+                    <a href="#" class="texts">Home</a>
+                    <a href="#" class="texts">Blog</a>
+                    <a href="#" class="texts">Portfolio</a>
+                    <a href="#" class="texts">About</a>
+                    <a href="#" class="texts">Contact</a>
+               </nav>
+
+               <div id="social-links">
+                    <a href="https://www.instagram.com/raghav_28_gupta/?__pwa=1" class="icon" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/1384/1384031.png" alt="Instagram" width="24" height="24">
+                    </a>
+                    <a href="https://www.linkedin.com/in/raghav-gupta-917a19326/" class="icon" target="_blank">
+                        <img src="https://www.freepnglogos.com/uploads/linkedin-logo-black-png-12.png" alt="LinkedIn" width="24" height="24">
+                    </a>
+                    <a href="https://github.com/Raghav-28-Gupta" class="icon" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/1051/1051377.png" alt="GitHub" width="24" height="24">
+                    </a>
+               </div>
+                    <script>
+                         document.querySelectorAll('.icon').forEach(icon => {
+                         icon.addEventListener('click', function() {
+                              this.classList.toggle('clicked');
+                         });
+                         });
+                    </script>
+          </header>
+
+          <div id="fakeHeader"></div>
+          
+          <section id="page1">
+               <div id="content">
+                    <div id="Box1">
+                         <div class="about"><p>Director. Builder.</p></div>
+                         <div class="about1"><p>Precisionist.</p></div>
+
+                    </div>
+
+                    <div id="Box2">
+                         <h1>Raghav Gupta</h1>
+                    </div>
+                    
+                    <div id="Box3">
+                         <p>"Cherche Pas Ton</p>
+                         <p>KARMA C'est Moi."</p>
+                    </div>
+               </div>
+
+               <hr>
+
+               <div id="content2">
+                    <div class="side-box">
+                         <h1>Embrace</h1>
+                         <br>
+                         <h1>The</h1>
+                         <br>
+                         <h1><em style="color: #d499abe9; font-weight: lighter;">Pain.</em></h1>
+                    </div>
+
+                    <div class="center-box">
+                         <img src="Profile.jpg" alt="Center Image">
+                    </div>
+ 
+                    <div class="side-box">
+                         <br>
+                         <br>
+                         <br>
+                         <br>
+                         <br>
+                         <br>
+                         <br>
+                         <br>
+                         <hr class="line">
+                         <br>
+                         <p><a href="https://github.com/Raghav-28-Gupta/WORKING-WITH-PYTHON" class="about-link">Project</a></p>
+                         <br>
+                         <hr class="line">
+                         <br>
+                         <p><a href="#page2" class="about-link">About</a></p>
+                         <br>
+                         <hr class="line">
+                         <br>
+                         <p>NewsLetter <small class="smaller-text">(incoming)</small></p>
+                         <br>
+                         <hr class="line">
+                    </div>
+               </div>
+
+          </section>
+
+          <section id="page2">
+               <div class="blog-grid">
+                    <article class="blog-card">
+                         <div class="blog-content">
+                         <h3>My Journey in <em style="color: #d499abe9;">Programming</em></h3>
+                         <p>Posted on November 1, 2024</p>
+                         <br>
+                         <p id="blog-paragraph">
+                              My journey of coding started in my standard eleventh. In the first two months of my learning process, there came lots of issues that made me lose interest. However, due to the invaluable guidance and tutelage of the best mentor present at school, I was not only able to overcome these obstacles but also to develop a deep love for the art and science of programming. Their patience coupled with consistent encouragement helped me reach a proficient level of mastery in Python programming. I also explored details in the working of database management systems and went over MySQL, which proved helpful in the theoretical implementation of the said project in a real scenario.</p>
+                         </div>
+                    </article>
+
+                    <article class="blog-card">
+                         <!-- <img src="/api/placeholder/400/300" alt="Blog Post 2"> -->
+                         <div class="blog-content">
+                         <h3>And Journey <em style="color: #d499abe9;">Continues...</em></h3>
+                         <p>Posted on November 1, 2024</p>
+                         <br>
+                         <p>In September, I had a golden opportunity to join the Backslash Computing Society. Valuable guidance by awakened seniors helped me reach an exciting decision: to dive into the world of Artificial Intelligence and Machine Learning. But I also want to hone my skills in web development simultaneously and contribute to this innovative society by creating imaginative and groundbreaking projects.</p>
+                         </div>
+                    </article>
+               </div>
+          </section>
+     </div>
+</body>
+</html>
